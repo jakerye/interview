@@ -1,0 +1,27 @@
+{
+  "files.associations": {
+    ".env.*": "shellscript"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.commandCenter": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.largeFileOptimizations": false,
+  "window.zoomLevel": -1,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.test.ts, ${capture}.types.ts, ${capture}.schemas.ts, ${capture}.sql.ts, ${capture}.mock.ts, ${capture}.constants.ts, ${capture}.utils.ts, ${capture}.errors.ts"
+  },
+}

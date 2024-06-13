@@ -1,0 +1,13 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "NODE_ENV=test jest --detectOpenHandles --runInBand --forceExit --verbose"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  }
+}
