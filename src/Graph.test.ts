@@ -1,4 +1,4 @@
-import { Graph } from "./graph";
+import { Graph } from "./Graph";
 
 describe("Graph", () => {
   const graph = new Graph<number>();
