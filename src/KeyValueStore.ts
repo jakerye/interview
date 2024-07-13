@@ -53,6 +53,8 @@ export class KeyValueStore<D> {
    *  1. Value from inner-most tx
    *  2. Value from outer tx(s)
    *  3. Value from store (if no txs present or no changes to value in tx)
+   *
+   * TODO: Start with inner most tx for better performance
    */
   public get(key: string): D | undefined {
     let value = this.store.get(key);
