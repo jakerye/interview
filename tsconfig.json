@@ -129,5 +129,5 @@
     "esm": false,
     "transpileOnly": true
   },
-  "exclude": ["src/docs/*", "dist"]
+  "exclude": ["typescript/docs/*", "dist"]
 }
